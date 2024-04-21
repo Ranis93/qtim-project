@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'TTCommons';
+  src: url('../src/assets/fonts/TTCommons-Regular.ttf');
+}
+:root {
+  box-sizing: border-box;
+  font-family: 'TTCommons';
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(16, 16, 16, 1);
+  background-color: rgba(255, 255, 255, 1);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 400;
+  color: rgba(16, 16, 16, 1);
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 84px;
+  font-weight: 400;
+  line-height: 84px;
+}
+
+button {
+  font-family: inherit;
+  border: 0;
+  background-color: rgba(16, 16, 16, 1);
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+button:hover {
+  border-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+#app {
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+main{
+  margin: 0 auto;
+  padding: 0 112px;
+  max-width: 1440px;
+  box-sizing: inherit;
+  min-height: 600px;
+}
+h1{
+  margin: 240px 20px 59px 20px;
+  text-align: left;
+}
+
